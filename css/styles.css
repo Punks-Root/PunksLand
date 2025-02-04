@@ -25,31 +25,17 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-
-#contact-btn {
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-#contact-bar {
-    display: none;
-    background-color: #444;
-    padding: 10px;
-    border-radius: 5px;
+.social-icons {
     margin-top: 10px;
 }
 
-#contact-bar a img {
-    width: 40px;
-    height: 40px;
+.social-icon {
     margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
 }
 
-.hidden {
-    display: none;
+.social-icon:hover {
+    color: #008CBA; /* Cambia el color al pasar el cursor */
 }

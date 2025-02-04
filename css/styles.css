@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact-btn {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#contact-bar {
+    display: none;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#contact-bar a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.hidden {
+    display: none;
+}
